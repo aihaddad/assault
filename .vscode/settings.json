@@ -1,0 +1,6 @@
+{
+    "python.pythonPath": "/home/cloud_user/.local/share/virtualenvs/assualt-30hg_Ytf/bin/python",
+    "python.linting.enabled": true,
+    "editor.formatOnSave": true,
+    "python.formatting.provider": "black"
+}
