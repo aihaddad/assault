@@ -1,4 +1,5 @@
 import click
+from .http import assault
 
 
 @click.command()
@@ -11,6 +12,7 @@ def cli(requests, concurrency, json_file, url):
     print(f"Concurrency: {concurrency}")
     print(f"JSON File: {json_file}")
     print(f"URL: {url}")
+    assault(url, requests, concurrency)
 
 
 if __name__ == "__main__":
